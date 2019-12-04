@@ -55,14 +55,18 @@
   </nav>
 
   <!-- Header -->
-  <header class="masthead">
-    <div class="container">
-      <div class="intro-text">
+<header class="masthead">
+	<div class="wrapper">
+	  <video autoplay loop muted class="wrapper_video">
+        <source src="img/bg_video.mp4" type="video/mp4" />
+      </video>
+	
+      <div class="overlay intro-text">
         <div class="intro-lead-in">Blockchain Busters</div>
         <div class="intro-heading text-uppercase">BlockPay</div>
         <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#product">O projekte</a>
       </div>
-    </div>
+	</div>
   </header>
 
   <!-- Team -->
@@ -250,25 +254,25 @@
                   <h4 class="subheading">19.11.2019-03.12.2019</h4>
                 </div>
                 <div class="timeline-body">
-                  <p class="text-muted">Už naozaj prvá transakcia a prihlásenie používateľa.</p>
+                  <p class="text-muted">Už naozaj prvá transakcia. Navyše registrácia a prihlásenie používateľa.</p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="timeline-image">
+                <img class="rounded-circle img-fluid" src="img/sprints/05_fx.png" alt="">
+              </div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4>Šprint 5: FxCoin</h4>
+                  <h4 class="subheading">03.12.2019-13.12.2019</h4>
+                </div>
+                <div class="timeline-body">
+                  <p class="text-muted">Nekorešponduje s výslednou známkou. Doťahujeme kozmetické úpravy.</p>
                 </div>
               </div>
             </li>
 			<!--
-            <li>
-              <div class="timeline-image">
-                <img class="rounded-circle img-fluid" src="img/about/3.jpg" alt="">
-              </div>
-              <div class="timeline-panel">
-                <div class="timeline-heading">
-                  <h4>December 2012</h4>
-                  <h4 class="subheading">Transition to Full Service</h4>
-                </div>
-                <div class="timeline-body">
-                  <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                </div>
-              </div>
-            </li>
             <li class="timeline-inverted">
               <div class="timeline-image">
                 <img class="rounded-circle img-fluid" src="img/about/4.jpg" alt="">
@@ -309,7 +313,10 @@
     </div>
 
     <div class="container">
-      <h2 class="text-center" id="zapisnice" style="padding-top:30px">Zápisnice</h2>
+      <h2 class="text-center" id="zapisnice" style="padding-top:30px">Zápisnice 
+			<i class="fas fa-sort-down clickable" data-toggle="collapse" data-target="#collapse1" aria-expanded="false" aria-controls="collapse1"></i>
+	  </h2>
+	  <div class="collapse" id="collapse1">
       <div class="row">
         <div class="col-md-12">
           <h3 class="text-center">Zimný semester</h3>
@@ -322,6 +329,7 @@
               </tr>
             </thead>
             <tbody>
+			
               <tr>
                 <td>Zápisnica č. 1</td>
                 <td>01.10.2019</td>
@@ -427,9 +435,11 @@
                 </td>
               </tr>
 			  -->
+			  
             </tbody>
           </table>
         </div>
+		</div>
 
         <!-- TODO:odkomentovať na prelome semestrov! + zmeniť hore col-md-12 na col-md-6  
         <div class="col-md-6">
@@ -546,7 +556,10 @@
 		-->
       </div>
 
-      <h2 class="text-center" id="exporty" style="padding-top:30px">Exporty úloh</h2>
+      <h2 class="text-center" id="exporty" style="padding-top:30px">Exporty úloh
+	  <i class="fas fa-sort-down clickable" data-toggle="collapse" data-target="#collapse2" aria-expanded="false" aria-controls="collapse2"></i>
+	  </h2>
+	  <div class="collapse" id="collapse2">
       <div class="row">
         <div class="col-md-12">
           <h3 class="text-center">Zimný semester</h3>
@@ -689,8 +702,12 @@
           </table>
         </div>
       </div>
+	  </div>
 
-      <h2 class="text-center" id="sumarizacie" style="padding-top:30px">Retrospektívy šprintov</h2>
+      <h2 class="text-center" id="sumarizacie" style="padding-top:30px">Retrospektívy šprintov
+	  <i class="fas fa-sort-down clickable" data-toggle="collapse" data-target="#collapse3" aria-expanded="false" aria-controls="collapse3"></i>
+	  </h2>
+	  <div class="collapse" id="collapse3">
       <div class="row">
         <div class="col-md-12">
           <h3 class="text-center">Zimný semester</h3>
@@ -727,6 +744,15 @@
                 <td>19. 11. 2019</td>
                 <td>
                   <a href="download/retrospektivy/03 Testnet Retrospektíva.pdf" target="_blank">
+                    <i class="fas fa-file-pdf fa-2x"></i>
+				  </a>
+                </td>
+              </tr>
+			  <tr>
+                <td>Retrospektíva 4. šprint</td>
+                <td>03. 12. 2019</td>
+                <td>
+                  <a href="download/retrospektivy/04 Binance Retrospektíva.pdf" target="_blank">
                     <i class="fas fa-file-pdf fa-2x"></i>
 				  </a>
                 </td>
@@ -833,8 +859,12 @@
           </table>
         </div>
       </div>
-
-      <h2 class="text-center " id="metodiky" style="padding-top:30px">Metodiky</h2>
+	  </div>
+	  
+      <h2 class="text-center " id="metodiky" style="padding-top:30px">Metodiky
+	  <i class="fas fa-sort-down clickable" data-toggle="collapse" data-target="#collapse4" aria-expanded="false" aria-controls="collapse4"></i>
+	  </h2>
+	  <div class="collapse" id="collapse4">
       <div class="col-md-12">
         <table class="table" style="width:100%">
           <thead>
@@ -972,9 +1002,13 @@
 		  
         </table>
       </div>
-
-      <h2 class="text-center hidden" id="dokumentacia" style="padding-top:30px">Dokumentácia</h2>
-      <div class="col-md-12 hidden">
+	  </div>
+	  
+      <h2 class="text-center hidden" id="dokumentacia" style="padding-top:30px">Dokumentácia
+	  <i class="fas fa-sort-down clickable" data-toggle="collapse" data-target="#collapse5" aria-expanded="false" aria-controls="collapse5"></i>
+	  </h2>
+      <div class="collapse" id="collapse5">
+	  <div class="col-md-12 hidden">
         <table class="table" style="width:100%">
           <thead>
             <tr>
@@ -1028,9 +1062,13 @@
 		  </tbody>
         </table>
       </div>
-
-	<h2 class="text-center hidden" id="dokumentacia" style="padding-top:30px">Diagramy</h2>
-      <div class="col-md-12 hidden">
+	  </div>
+	  
+	<h2 class="text-center hidden" id="dokumentacia" style="padding-top:30px">Diagramy
+	<i class="fas fa-sort-down clickable" data-toggle="collapse" data-target="#collapse6" aria-expanded="false" aria-controls="collapse6"></i>
+	</h2>
+      <div class="collapse" id="collapse6">
+	  <div class="col-md-12 hidden">
         <table class="table" style="width:100%">
           <thead>
             <tr>
@@ -1104,9 +1142,13 @@
           </tbody>
         </table>
       </div>
-
-      <h2 class="text-center" id="odovzdane_doku" style="padding-top:30px">Odovzdané dokumenty</h2>
-      <div class="col-md-12">
+	  </div>
+	  
+      <h2 class="text-center" id="odovzdane_doku" style="padding-top:30px">Odovzdané dokumenty
+	  <i class="fas fa-sort-down clickable" data-toggle="collapse" data-target="#collapse7" aria-expanded="false" aria-controls="collapse7"></i>
+	  </h2>
+      <div class="collapse" id="collapse7">
+	  <div class="col-md-12">
         <table class="table" style="width:100%">
           <thead>
             <tr>
@@ -1280,7 +1322,8 @@
           </tbody>
         </table>
       </div>
-
+	  </div>
+	  
     </div>
 
     
