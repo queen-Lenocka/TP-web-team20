@@ -14,6 +14,10 @@ tbody.collapse.in {
   overflow: hidden;
 }
 
+.clickable {
+	cursor:pointer;
+}
+
 .wrapper::before {
     position: absolute;
     top: 0;
@@ -215,8 +219,7 @@ img::-moz-selection {
 header.masthead {
   text-align: center;
   color: white;
-  
-  background-video: url("../img/bg_video.mp4");
+  background-image: url("../img/background.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
